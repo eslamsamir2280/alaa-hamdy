@@ -6,7 +6,7 @@ const contactRoute = require("./routes/contact");
 const articlesRoute = require("./routes/articles");
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 
 // Middleware
 app.use(cors());
@@ -36,3 +36,4 @@ app.post("/api/login", (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
+
