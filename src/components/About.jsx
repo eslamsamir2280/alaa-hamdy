@@ -39,7 +39,7 @@ const About = () => {
             {/* الصورة الرئيسية */}
             <div className="relative z-10 h-[500px] bg-gray-200 w-full rounded-sm overflow-hidden">
                <img 
-                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1000&auto=format&fit=crop" 
+                src="https://res.cloudinary.com/defcamc5x/image/upload/v1770898952/nylzytttgxlhhd5fmeht.jpg" 
                 alt="Lawyer Office" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
@@ -114,5 +114,6 @@ const About = () => {
     </section>
   );
 };
+
 
 export default About;
